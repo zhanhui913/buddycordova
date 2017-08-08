@@ -36,6 +36,7 @@ public class MainActivity extends CordovaActivity
         }
 
         //Comment for change only testing with buddybuild
+        //2nd commit
 
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
