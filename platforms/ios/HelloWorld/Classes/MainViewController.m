@@ -34,6 +34,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         //comment only for buddybuild testing
+        //testing for 2 targets now
         // Uncomment to override the CDVCommandDelegateImpl used
         // _commandDelegate = [[MainCommandDelegate alloc] initWithViewController:self];
         // Uncomment to override the CDVCommandQueue used
