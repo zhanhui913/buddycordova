@@ -35,6 +35,8 @@ public class MainActivity extends CordovaActivity
             moveTaskToBack(true);
         }
 
+        //Comment for change only testing with buddybuild
+
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
     }
