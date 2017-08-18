@@ -37,6 +37,7 @@
         //testing for 2 targets now
         //another commit
         //testing auto versioning for ios
+	// testing for auto deployment for specific groups in buddybuild
         // Uncomment to override the CDVCommandDelegateImpl used
         // _commandDelegate = [[MainCommandDelegate alloc] initWithViewController:self];
         // Uncomment to override the CDVCommandQueue used
