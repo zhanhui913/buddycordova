@@ -1,0 +1,36 @@
+buildTypes {
+            release {
+                ndk {
+                    abiFilters "armeabi", "armeabi-v7a"
+                }
+            }
+            debug {
+                applicationIdSuffix ".debug"
+                ndk {
+                    abiFilters "armeabi", "armeabi-v7a"
+                }
+            }
+        }
+
+        productFlavors {
+            Jostle {
+                applicationId "com.jostleme.jostle"
+                buildConfigField 'String', 'HOST', '"https://platform.jostle.us/jostle-prod/?clientType=mobile"'
+                resValue "string", "app_name", "Jostle"
+            }
+            JostleQA {
+                applicationId "com.jostleme.jostleQA"
+                buildConfigField 'String', 'HOST', '"https://usqa.jostle.us/jostle-usqa/?clientType=mobile"'
+                resValue "string", "app_name", "Jostle QA"
+            }
+            Jostle2ndAccount {
+                applicationId "com.jostleme.jostle.seccondaccount"
+                buildConfigField 'String', 'HOST', '"https://platform.jostle.us/jostle-prod/?clientType=mobile"'
+                resValue "string", "app_name", "Jostle (2nd Account)"
+            }
+            JostleQA2ndAccount {
+                applicationId "com.jostleme.jostleQA.secondaccount"
+                buildConfigField 'String', 'HOST', '"https://usqa.jostle.us/jostle-usqa/?clientType=mobile"'
+                resValue "string", "app_name", "Jostle QA (2nd Account)"
+            }
+        }
